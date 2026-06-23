@@ -1,0 +1,19 @@
+{
+  "name": "umn-medic-vercel-full",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UMN Medic Admission System versi Vercel dengan API Node.js dan PostgreSQL/Neon.",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
